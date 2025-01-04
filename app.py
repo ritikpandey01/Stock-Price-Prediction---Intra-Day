@@ -122,8 +122,42 @@ st.markdown("""
 
 # App title
 st.markdown("""
-    <h1>🔮 Advanced Stock Price Prediction</h1>
+<style>
+    /* Main container styling */
+    .title-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1E2D3D; /* Adjusted secondary color */
+        padding: 1rem;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        border: 2px solid #00FF41; /* Accent color */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Icon styling */
+    .title-container .icon {
+        font-size: 2rem;
+        margin-right: 10px;
+        color: #00FF41; /* Bright green */
+    }
+
+    /* Text styling */
+    .title-container .title-text {
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #E0E0E0; /* Light text color */
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+</style>
+
+<div class="title-container">
+    <span class="icon">🔮</span>
+    <span class="title-text">Advanced Stock Price Prediction</span>
+</div>
 """, unsafe_allow_html=True)
+
 
 
 
