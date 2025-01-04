@@ -122,8 +122,22 @@ st.markdown("""
 
 # App title
 st.markdown("""
-    <h1 style="background-color: lightgreen; padding: 10px; border-radius: 5px;">🔮 Advanced Stock Price Prediction</h1>
+    <style>
+        .glowing-title {
+            background-color: #1b1b1b; /* Dark background */
+            color: #00ff00; /* Bright green text */
+            font-weight: bold;
+            font-size: 2rem; /* Adjust size as needed */
+            padding: 10px 20px; /* Add padding */
+            text-align: center; /* Center the text */
+            border: 2px solid #00ff00; /* Green border */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Glow effect */
+        }
+    </style>
+    <h1 class="glowing-title">🔮 Advanced Stock Price Prediction</h1>
 """, unsafe_allow_html=True)
+
 
 
 # Session state initialization
