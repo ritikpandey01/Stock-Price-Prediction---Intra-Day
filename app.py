@@ -122,43 +122,23 @@ st.markdown("""
 
 # App title
 st.markdown("""
-<style>
-    /* Main container styling */
-    .title-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #1E2D3D; /* Adjusted secondary color */
-        padding: 1rem;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        border: 2px solid #00FF41; /* Accent color */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    }
-
-    /* Icon styling */
-    .title-container .icon {
-        font-size: 2rem;
-        margin-right: 10px;
-        color: #00FF41; /* Bright green */
-    }
-
-    /* Text styling */
-    .title-container .title-text {
-        font-size: 1.8rem;
-        font-weight: bold;
-        color: #E0E0E0; /* Light text color */
-        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
-    }
-</style>
-
-<div class="title-container">
-    <span class="icon">🔮</span>
-    <span class="title-text">Advanced Stock Price Prediction</span>
-</div>
+    <style>
+        .glowing-title {
+            background: linear-gradient(to right, #0a0a0a, #1b1b1b); /* Subtle gradient fill */
+            color: #00ff00; /* Bright green text */
+            font-weight: bold; /* Bold text */
+            font-size: 2.5rem; /* Larger font size */
+            padding: 20px 0; /* Proportional height */
+            text-align: center; /* Center the text */
+            border: 4px solid #00ff00; /* Thicker green border */
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Strong glowing effect */
+            width: 100%; /* Full width */
+            margin: 0; /* No margin for full width */
+        }
+    </style>
+    <h1 class="glowing-title">🔮 Advanced Stock Price Prediction</h1>
 """, unsafe_allow_html=True)
-
-
 
 
 
