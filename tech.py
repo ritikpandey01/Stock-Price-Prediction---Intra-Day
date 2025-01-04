@@ -149,8 +149,8 @@ def footer_set():
         }
     </style>
     <div class='footer'>
-        <p style="padding-left: 250px;">📈 Advanced Stock Price Prediction Pro | Made with ❤️ using Streamlit</p>
-        <p style="padding-left: 250px;">By <a href="https://www.instagram.com/sb_ritik" target="_blank">Pandey G.</a></p>
+        <p>📈 Advanced Stock Price Prediction Pro | Made with ❤️ using Streamlit</p>
+        <p>By <a href="https://www.instagram.com/sb_ritik" target="_blank">Pandey G.</a></p>
     </div>
 """, unsafe_allow_html=True)
 
