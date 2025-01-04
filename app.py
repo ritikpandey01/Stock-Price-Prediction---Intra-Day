@@ -124,16 +124,18 @@ st.markdown("""
 st.markdown("""
     <style>
         .glowing-title {
-            background: linear-gradient(to right, #0a0a0a, #1b1b1b); /* Subtle gradient fill inside */
+            background: linear-gradient(to right, #0a0a0a, #1b1b1b); /* Subtle gradient fill */
             color: #00ff00; /* Bright green text */
             font-weight: bold; /* Bold text */
-            font-size: 2rem; /* Font size */
-            padding: 15px 25px; /* Padding inside */
+            font-size: 2.5rem; /* Larger font size */
+            padding: 30px 50px; /* Increased padding for a bigger box */
             text-align: center; /* Center the text */
-            border: 2px solid #00ff00; /* Bright green border */
-            border-radius: 10px; /* Rounded corners */
-            box-shadow: 0 0 5px #00ff00, 0 0 15px #00ff00; /* Glowing green border effect */
-            display: inline-block; /* Ensure box wraps tightly around the content */
+            border: 4px solid #00ff00; /* Thicker green border */
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Stronger glowing effect */
+            display: inline-block; /* Keep box size relative to content */
+            width: 80%; /* Make the box wider */
+            margin: auto; /* Center the box horizontally */
         }
     </style>
     <h1 class="glowing-title">🔮 Advanced Stock Price Prediction</h1>
