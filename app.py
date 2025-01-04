@@ -122,22 +122,7 @@ st.markdown("""
 
 # App title
 st.markdown("""
-    <style>
-        .glowing-title {
-            background: linear-gradient(to right, #0a0a0a, #1b1b1b); /* Subtle gradient fill */
-            color: #00ff00; /* Bright green text */
-            font-weight: bold; /* Bold text */
-            font-size: 2.5rem; /* Larger font size */
-            padding: 20px 0; /* Proportional height */
-            text-align: center; /* Center the text */
-            border: 4px solid #00ff00; /* Thicker green border */
-            border-radius: 15px; /* Rounded corners */
-            box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Strong glowing effect */
-            width: 100%; /* Full width */
-            margin: 0; /* No margin for full width */
-        }
-    </style>
-    <h1 class="glowing-title">🔮 Advanced Stock Price Prediction</h1>
+    <h1 style="background-color: lightgreen; padding: 10px; border-radius: 5px;">🔮 Advanced Stock Price Prediction</h1>
 """, unsafe_allow_html=True)
 
 
