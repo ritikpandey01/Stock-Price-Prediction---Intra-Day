@@ -153,7 +153,7 @@ if 'predictions' not in st.session_state:
 
 # Sidebar
 with st.sidebar:
-    st.markdown("### Trading Configuration")
+    st.markdown("### 🛠️ **Trading Configuration**")
     
     # Stock symbol input (simple text input)
     company_symbol = st.text_input("Enter Stock Symbol (e.g., AAPL)", key='symbol')
@@ -162,7 +162,7 @@ with st.sidebar:
     st.markdown("### Time Horizon")
     prediction_term = st.selectbox(
         'Select Prediction Term',
-        ['Short Term', 'Mid Term', 'Long Term']
+        ['📅 Short Term', '📅 Mid Term', '📅 Long Term']
     )
     
     # Time selectors (select boxes instead of sliders)
@@ -202,16 +202,16 @@ with st.sidebar:
     # Risk management section
     st.markdown("### Risk Management")
     risk_percentage = st.selectbox(
-        "Risk per Trade (%)",
+        "💸 Risk per Trade (%)",
         options=[0.1, 0.5, 1.0, 2.0, 3.0, 4.0, 5.0]
     )
     
     stop_loss = st.selectbox(
-        "Stop Loss (%)",
+        "🚫 Stop Loss (%)",
         options=[0.5, 1.0, 2.0, 3.0, 5.0, 7.0, 10.0]
     )
 
-    analyze_button = st.button('🔮 Analyze Stock')
+    analyze_button = st.button('🔮 **Analyze Stock**')
 
 # Main content area
 if analyze_button and company_symbol:
