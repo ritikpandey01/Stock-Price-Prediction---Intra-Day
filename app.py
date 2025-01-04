@@ -121,9 +121,42 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # App title
+import streamlit as st
+
+# Add custom CSS for styling
 st.markdown("""
-    <h1 style="background-color: lightgreen; padding: 10px; border-radius: 5px;">🔮 Advanced Stock Price Prediction</h1>
+    <style>
+        .title-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #00FF00; /* Neon green border */
+            border-radius: 10px;
+            padding: 10px 20px;
+            background: linear-gradient(to right, #1e1e2f, #2a5298); /* Dark gradient background */
+            margin-top: 50px;
+        }
+        .title-text {
+            font-size: 28px;
+            font-weight: bold;
+            color: #00FF00; /* Neon green text */
+            text-shadow: 0px 0px 5px #00FF00;
+            margin-left: 10px;
+        }
+        .icon {
+            font-size: 35px;
+        }
+    </style>
 """, unsafe_allow_html=True)
+
+# Add the title box
+st.markdown("""
+    <div class="title-container">
+        <span class="icon">🔮</span>
+        <span class="title-text">Advanced Stock Price Prediction</span>
+    </div>
+""", unsafe_allow_html=True)
+
 
 
 
