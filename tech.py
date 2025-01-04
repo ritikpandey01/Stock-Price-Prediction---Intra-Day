@@ -129,8 +129,8 @@ def footer_set():
             position: relative;
             top:200px;
             bottom: 0;
-            width: 100vw;
-            left:-23vw;
+            width: 100%;
+            
             
             background-color: #000000;
             color: white;
