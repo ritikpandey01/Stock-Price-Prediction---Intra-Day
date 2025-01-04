@@ -122,8 +122,9 @@ st.markdown("""
 
 # App title
 st.markdown("""
-    <h1>🔮 Advanced Stock Price Prediction</h1>
+    <h1 style="background-color: lightgreen; padding: 10px; border-radius: 5px;">🔮 Advanced Stock Price Prediction</h1>
 """, unsafe_allow_html=True)
+
 
 # Session state initialization
 if 'datasets' not in st.session_state:
