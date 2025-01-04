@@ -1,7 +1,5 @@
 alpha_vantage
 catboost
-datetime
-logging
 matplotlib
 numpy
 pandas
@@ -10,9 +8,6 @@ scikit-learn
 seaborn
 streamlit
 statsmodels
-sys
 ta
-typing
-warnings
 xgboost
 yfinance
