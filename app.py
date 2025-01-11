@@ -165,7 +165,7 @@ with st.sidebar:
     )
     
     # Time selectors (select boxes instead of sliders)
-    if prediction_term == 'Short Term':
+    if 'Short Term' in prediction_term:
         days_to_predict = st.selectbox(
             'Minutes to Predict Ahead',
             options=[1, 2, 5, 15, 30]
@@ -176,7 +176,7 @@ with st.sidebar:
 
         )
         
-    elif prediction_term == 'Mid Term':
+    elif 'Mid Term' in prediction_term:
         days_to_predict = st.selectbox(
             'Minutes to Predict Ahead',
             options=[1, 2, 5, 15, 30]
